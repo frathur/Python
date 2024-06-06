@@ -21,9 +21,12 @@ else:
             
         print("\nYou have no more attempts!!!")  
         break
-new_data = {"Email":"frarthur1230@gmail.com"}
+new_data = {"Email":"preach.342.55@gmail.com"}
 data.update(new_data)
 
 ##newly updated
-data.update(Phone="0549987904")
-print(data)
+data.update(Phone="0543730305")
+#print(data)
+print("\nWelcome ",Username, ". Your information is safe with us.")
+for (a,b) in data.items():
+    print(a ,": ",b)
